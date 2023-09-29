@@ -5,6 +5,7 @@ import doc from 'doc'
 import pinoHttp from 'pino-http'
 
 const app = express()
+app.use(express.json())
 const enabled = JSON.parse(process.env.LOGGER_ENABLED!)
 const logger = pinoHttp({ enabled })
 app.use(logger)
