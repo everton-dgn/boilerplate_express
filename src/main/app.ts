@@ -1,10 +1,12 @@
 import express from 'express'
 import type { Request, Response } from 'express'
+import compression from 'compression'
 import 'dotenv/config'
 import doc from 'doc'
 import pinoHttp from 'pino-http'
 
 const app = express()
+app.use(compression())
 const enabled = JSON.parse(process.env.LOGGER_ENABLED!)
 const logger = pinoHttp({ enabled })
 app.use(logger)
