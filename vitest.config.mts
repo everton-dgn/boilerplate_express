@@ -8,9 +8,7 @@ export default defineConfig({
   plugins: [tsconfigPaths()],
   test: {
     coverage: {
-      exclude: [
-        'src/tests/'
-      ]
+      exclude: ['src/tests/']
     },
     environment: 'node',
     globals: true,
