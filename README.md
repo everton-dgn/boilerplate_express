@@ -23,10 +23,13 @@ This application is a boilerplate for complex and large systems, especially thos
 - Node.js
 - TypeScript
 - Express
-- Jest
+- Vitest
 - Supertest
 - Lints: Husky, ESlint, Stylelint, Commitlint, Lint-Staged e Prettier
-- Swagger and Swagger UI
+- Swagger and Swagger UI Express
+- Pino and Pino-http
+- Dotenv
+- Compression
 
 <br />
 
@@ -65,7 +68,7 @@ yarn
 Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente:
 
 ```
-APP_PORT=5000
+APP_PORT=3000
 ```
 
 <br />
@@ -74,7 +77,7 @@ APP_PORT=5000
 
 # :zap: Execucao
 
-Disponível em `http://localhost:5000`.
+Disponível em `http://localhost:3000`.
 
 Desenvolvimento:
 
