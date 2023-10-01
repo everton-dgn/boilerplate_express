@@ -6,7 +6,7 @@ import pinoHttp from 'pino-http'
 
 const app = express()
 app.use(express.json())
-const enabled = JSON.parse(process.env.LOGGER_ENABLED!)
+const enabled = JSON.parse(process.env.LOGGER_ENABLED || 'false')
 const logger = pinoHttp({ enabled })
 app.use(logger)
 doc(app)
