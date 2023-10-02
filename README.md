@@ -38,7 +38,7 @@ This application is a boilerplate for complex and large systems, especially thos
 # :white_check_mark: Pre Requisitos
 
 - node última versão lts.
-- pnpm última versão lts.
+- yarn última versão lts.
 
 <br />
 
@@ -56,7 +56,7 @@ cd boilerplate_express
 Instale as dependências:
 
 ```bash
-pnpm i
+yarn
 ```
 
 <br />
@@ -82,14 +82,14 @@ Disponível em `http://localhost:3000`.
 Desenvolvimento:
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 Produção:
 
 ```bash
-pnpm build
-pnpm start
+yarn build
+yarn start
 ```
 
 <br />

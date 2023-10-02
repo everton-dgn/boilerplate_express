@@ -21,8 +21,7 @@
     "test:unit": "vitest run src/tests/unit",
     "test:integration": "vitest run src/tests/integration",
     "test:ci": "vitest run",
-    "check:update": "pnpm outdated --long",
-    "update": "pnpm update",
+    "check:update": "yarn upgrade-interactive --latest",
     "prepare": "node scripts/create-husky-files.mjs && husky install"
   },
   "husky": {
