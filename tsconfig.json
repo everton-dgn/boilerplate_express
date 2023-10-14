@@ -27,6 +27,8 @@
     "strictPropertyInitialization": true,
     "alwaysStrict": true,
     "noEmitHelpers": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleDetection": "force",
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
